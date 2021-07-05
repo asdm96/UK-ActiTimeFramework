@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-05T23:35:36 IST" name="Default suite" finished-at="2021-07-05T23:36:26 IST" duration-ms="50380">
+    <groups>
+    </groups>
+    <test started-at="2021-07-05T23:35:36 IST" name="Default test" finished-at="2021-07-05T23:36:26 IST" duration-ms="50380">
+      <class name="actitime.practice.GetTimeTractTextTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:actitime.practice.GetTimeTractTextTest@1bb266b3]" started-at="2021-07-05T23:35:36 IST" name="configBS" finished-at="2021-07-05T23:35:36 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBT()[pri:0, instance:actitime.practice.GetTimeTractTextTest@1bb266b3]" started-at="2021-07-05T23:35:36 IST" name="configBT" finished-at="2021-07-05T23:35:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBT -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:actitime.practice.GetTimeTractTextTest@1bb266b3]" started-at="2021-07-05T23:35:36 IST" name="configBC" finished-at="2021-07-05T23:35:53 IST" duration-ms="17253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:actitime.practice.GetTimeTractTextTest@1bb266b3]" started-at="2021-07-05T23:35:53 IST" name="setUp" finished-at="2021-07-05T23:36:09 IST" duration-ms="16219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="timeTrackText()[pri:0, instance:actitime.practice.GetTimeTractTextTest@1bb266b3]" started-at="2021-07-05T23:36:09 IST" name="timeTrackText" finished-at="2021-07-05T23:36:09 IST" duration-ms="32" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+at actitime.PomClass.TimeTrackPage.getTitleofTimeTrackPage(TimeTrackPage.java:25)
+at actitime.practice.GetTimeTractTextTest.timeTrackText(GetTimeTractTextTest.java:13)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeTrackText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:actitime.practice.GetTimeTractTextTest@1bb266b3]" started-at="2021-07-05T23:36:09 IST" name="tearDown" finished-at="2021-07-05T23:36:20 IST" duration-ms="10163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:actitime.practice.GetTimeTractTextTest@1bb266b3]" started-at="2021-07-05T23:36:20 IST" name="configAC" finished-at="2021-07-05T23:36:26 IST" duration-ms="6624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAT()[pri:0, instance:actitime.practice.GetTimeTractTextTest@1bb266b3]" started-at="2021-07-05T23:36:26 IST" name="configAT" finished-at="2021-07-05T23:36:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAT -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:actitime.practice.GetTimeTractTextTest@1bb266b3]" started-at="2021-07-05T23:36:27 IST" name="configAS" finished-at="2021-07-05T23:36:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- actitime.practice.GetTimeTractTextTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
