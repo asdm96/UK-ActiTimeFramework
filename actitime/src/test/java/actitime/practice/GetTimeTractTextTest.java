@@ -9,7 +9,7 @@ public class GetTimeTractTextTest extends BaseClass {
 	@Test
 	public void timeTrackText() {
 		String expectedText="Enter Time-Track";
-		TimeTrackPage timeTrackPage = new TimeTrackPage();
+		TimeTrackPage timeTrackPage = new TimeTrackPage(driver);
 		String actualText=timeTrackPage.getTitleofTimeTrackPage();
 		System.out.println(expectedText);
 		System.out.println(actualText);

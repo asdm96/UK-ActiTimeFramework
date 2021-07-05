@@ -6,9 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class TimeTrackPage {
-	WebDriver driver=null;
-	public TimeTrackPage() {
-		PageFactory.initElements(driver, this);
+	WebDriver driver;
+	public TimeTrackPage(WebDriver driver) {
+		PageFactory.initElements( driver, this);
 		this.driver=driver;
 	}
 	
@@ -22,7 +22,7 @@ public class TimeTrackPage {
 	
 	//business logic
 	public String getTitleofTimeTrackPage() {
-		String text=driver.getTitle();
+		 String text = driver.getTitle();
 		return text;
 	}
 	
