@@ -11,7 +11,7 @@ import genericsUtils.BaseClass;
 public class HomePageTitleTest extends BaseClass {
 	@Test
 	public void timeTrackText() {
-		String expectedText="Enter Time-Track";
+		String expectedText="actiTIME - Login";
 		TimeTrackPage timeTrackPage = new TimeTrackPage(driver);
 		String actualText=timeTrackPage.getTitleofTimeTrackPage();
 		System.out.println(expectedText);

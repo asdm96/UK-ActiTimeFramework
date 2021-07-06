@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="actitime.practice.Titleverifi">
+      <class name="actitime.practice.HomePageTitleTest">
         <methods>
+          <include name="timeTrackText"/>
           <include name="configAT"/>
           <include name="configBS"/>
           <include name="configBC"/>
-          <include name="timeTrackText"/>
           <include name="configAS"/>
           <include name="configBT"/>
           <include name="setUp"/>
           <include name="configAC"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- actitime.practice.Titleverifi -->
+      </class> <!-- actitime.practice.HomePageTitleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
