@@ -1,11 +1,14 @@
 package actitime.practice;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import actitime.PomClass.TimeTrackPage;
 import genericsUtils.BaseClass;
-public class GetTimeTractTextTest extends BaseClass {
+
+@Listeners(genericsUtils.ListenerImplimentationClass.class)
+public class HomePageTitleTest extends BaseClass {
 	@Test
 	public void timeTrackText() {
 		String expectedText="Enter Time-Track";

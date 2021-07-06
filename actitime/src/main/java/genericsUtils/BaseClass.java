@@ -25,7 +25,7 @@ public class BaseClass {
 	public WebDriverUtility wUtil=new WebDriverUtility();
 	public FileUtility fUtil=new FileUtility();
 	public ExcelUtility EUtil=new ExcelUtility();
-	//public static WebDriver staticdriver;
+	public static WebDriver staticdriver;
 
 	@BeforeSuite() 
 	public void configBS(){
@@ -49,7 +49,7 @@ public class BaseClass {
 			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 			driver=new ChromeDriver();
 		}
-		//staticdriver=driver;
+		staticdriver=driver;
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}

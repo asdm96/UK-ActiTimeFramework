@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\asd\AppData\Local\Temp\testng-eclipse-1971490746\testng-customsuite.xml</span>
+                    <span>C:\Users\asd\AppData\Local\Temp\testng-eclipse-524441910\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="actitime.practice.GetTimeTractTextTest" class="method navigator-link" hash-for-method="timeTrackText">timeTrackText</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="actitime.practice.Titleverifi" class="method navigator-link" hash-for-method="timeTrackText">timeTrackText</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -122,7 +122,7 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">actitime.practice.GetTimeTractTextTest</span>
+              <span class="class-name">actitime.practice.Titleverifi</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -130,9 +130,14 @@
                   <a name="timeTrackText">
                   </a> <!-- timeTrackText -->
                   <span class="method-name">timeTrackText</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
-	at actitime.PomClass.TimeTrackPage.getTitleofTimeTrackPage(TimeTrackPage.java:25)
-	at actitime.practice.GetTimeTractTextTest.timeTrackText(GetTimeTractTextTest.java:13)
+                  <div class="stack-trace">java.lang.AssertionError: expected [Enter Time-Track] but found [actiTIME - Login]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at actitime.practice.Titleverifi.timeTrackText(Titleverifi.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -170,7 +175,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\asd\AppData\Local\Temp\testng-eclipse-1971490746\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\asd\AppData\Local\Temp\testng-eclipse-524441910\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -179,7 +184,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;actitime.practice.GetTimeTractTextTest&quot;/&gt;
+      &lt;class name=&quot;actitime.practice.Titleverifi&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -222,13 +227,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'timeTrackText')
-data.setCell(0, 2, 'actitime.practice.GetTimeTractTextTest')
-data.setCell(0, 3, 32);
+data.setCell(0, 2, 'actitime.practice.Titleverifi')
+data.setCell(0, 3, 45);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 ms</span>
+              <span class="suite-total-time">Total running time: 45 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -254,44 +259,44 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">actitime.practice.GetTimeTractTextTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">actitime.practice.Titleverifi</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">configBS</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">configBT</span>
-                <span class="method-start">34 ms</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">configBC</span>
-                <span class="method-start">85 ms</span>
+                <span class="method-start">32 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">17353 ms</span>
+                <span class="method-start">14367 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">timeTrackText</span>
-                <span class="method-start">33573 ms</span>
+                <span class="method-start">26689 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33615 ms</span>
+                <span class="method-start">26740 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">configAC</span>
-                <span class="method-start">43780 ms</span>
+                <span class="method-start">37220 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">configAT</span>
-                <span class="method-start">50407 ms</span>
+                <span class="method-start">40115 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">configAS</span>
-                <span class="method-start">51645 ms</span>
+                <span class="method-start">41190 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
