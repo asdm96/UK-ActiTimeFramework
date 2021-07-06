@@ -19,5 +19,4 @@ public class HomePageTitleTest extends BaseClass {
 		
 		Assert.assertEquals(actualText, expectedText);
 	}
-
 }
